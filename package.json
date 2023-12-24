@@ -1,0 +1,20 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "A template that sets up sample repo, with webpack and related config setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-watch": "webpack --watch"
+  },
+  "keywords": [
+    "webpack-template"
+  ],
+  "author": "Vineeth Duvvuri",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
